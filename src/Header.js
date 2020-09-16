@@ -8,7 +8,10 @@ function Header() {
     return (
         <div className='header'>
             <IconButton>
-                <PersonIcon fontSize="large" className="header__icon"/>
+                <PersonIcon 
+                    fontSize="large" 
+                    className="header__icon"
+                />
             </IconButton>
 
             <img
@@ -17,7 +20,14 @@ function Header() {
                 alt="logo"
             />
 
-            <ForumIcon/>
+            <IconButton>
+                <ForumIcon 
+                    fontSize="large" 
+                    className="header__icon" 
+                    alt="forum"
+                />
+            </IconButton>
+                
             
         </div>
     )
